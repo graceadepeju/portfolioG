@@ -97,6 +97,7 @@
         }
         #About{
             margin-bottom: 180px;
+            padding: 50px;
         }
         
 
@@ -151,10 +152,24 @@
 html {
   scroll-behavior: smooth;
 }
+.last{
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: center; */
+  align-items: center;
+  gap: 5px;
+}
 footer {
   text-align: center;
   padding: 2rem;
-  background-color: rgb(177, 174, 174);
-  color: whitesmoke;
+   background-color: rgb(253, 251, 251);
+  color: black;
   font-size: large;
 }
+@media(max-width:600px){
+        .linkdiv{
+        display: none;
+    } 
+    }
+
+
